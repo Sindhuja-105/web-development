@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: "Roboto";
+   font-size: 12px;
+   font-weight: 100;
+   color: gray;
+   line-height: 30px;
+   background-color: dimgray;
+   
+}
+.sin{
+    max-width: 40%;
+    
+     position: relative;
+    
+}
+.sin input[type="text"],
+.sin input[type="tel"],
+.sin input[type="email"],
+.sin input[type="url"],
+.sin textarea,
+.sin button[type="submit"]
+{
+   font: 100 12px"Roboto";
+}
+.sin{
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+    margin: 150px auto;
+    height: 500px;
+    border: 50px;
+    
+}
+.sin h1{
+    padding: 20px 20px;
+    font-weight: 100;
+}
+.sin h2{
+    position: relative;
+    padding: 0px 20px;
+    font-weight: 100;
+    margin-top: -7px;
+    font-size: 15px;
+}
+fieldset{
+    border: none;
+}
+.sin input[type="text"],
+.sin input[type="tel"],
+.sin input[type="email"],
+.sin input[type="url"],
+.sin textarea{
+     width: 90%;
+     height: 30px;
+     margin-top: 15px;
+     margin-left: 20px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 10px;
+     border-radius: 0% gray;
+    
+     
+}
+
+.sin textarea{
+    height: 100px;
+  max-width: 100%;
+  resize: none;
+  border-radius: 0% gray;
+}
+.sin button[type="submit"]{
+  width: 90%;
+ padding-bottom: 9px;
+ padding-top: 10px;
+ margin-left: 20px;
+ margin-top: 5px;
+ background-color: tan;
+ color: white;
+ border-color: tan;
+}
+.sin input[type="text"]:hover,
+.sin input[type="tel"]:hover,
+.sin input[type="email"]:hover,
+.sin input[type="url"]:hover,
+.sin textarea:hover{
+    transition: border-color 0.3s ease-in-out;
+  border: 5px solid maroon;
+}
+
+
+.sin button[type="submit"]:hover
+{
+ background-color: palevioletred;
+ color: black;
+}
+.port{
+    float: right;
+    margin-top: -10%;
+    
+    
+}
+.port a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 0 10px;
+    font-size: 20px;
+    font: serif;
+}
+.port a:hover{
+  color: aqua;
+}
